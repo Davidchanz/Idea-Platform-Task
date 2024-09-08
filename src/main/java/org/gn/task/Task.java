@@ -93,7 +93,7 @@ public class Task {
         middle = middle > 0 && middle % 2 == 0 ? middle - 1 : middle;
         double median= (prices[middle] + prices[middle - 1]) / 2.0;
 
-        System.out.printf("Average Price: %.2f%nMedian Price: %.2f%nDifference: %.2f", average, median, average - median);
+        System.out.printf("Average Price: %.2f%nMedian Price: %.2f%nDifference: %.2f%n", average, median, average - median);
     }
 
 }
